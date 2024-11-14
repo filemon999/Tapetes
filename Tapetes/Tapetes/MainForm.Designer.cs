@@ -55,15 +55,47 @@ namespace Tapetes
 			this.textBox2 = new System.Windows.Forms.TextBox();
 			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.button1 = new System.Windows.Forms.Button();
+			this.label9 = new System.Windows.Forms.Label();
+			this.textBox9 = new System.Windows.Forms.TextBox();
+			this.label10 = new System.Windows.Forms.Label();
+			this.textBox10 = new System.Windows.Forms.TextBox();
+			this.label11 = new System.Windows.Forms.Label();
+			this.textBox11 = new System.Windows.Forms.TextBox();
+			this.label12 = new System.Windows.Forms.Label();
+			this.textBox12 = new System.Windows.Forms.TextBox();
+			this.label13 = new System.Windows.Forms.Label();
+			this.textBox13 = new System.Windows.Forms.TextBox();
+			this.label14 = new System.Windows.Forms.Label();
+			this.label15 = new System.Windows.Forms.Label();
+			this.label16 = new System.Windows.Forms.Label();
+			this.textBox14 = new System.Windows.Forms.TextBox();
+			this.textBox15 = new System.Windows.Forms.TextBox();
+			this.textBox16 = new System.Windows.Forms.TextBox();
 			this.panel1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// panel1
 			// 
+			this.panel1.Controls.Add(this.label14);
+			this.panel1.Controls.Add(this.label15);
+			this.panel1.Controls.Add(this.label16);
+			this.panel1.Controls.Add(this.textBox14);
+			this.panel1.Controls.Add(this.textBox15);
+			this.panel1.Controls.Add(this.textBox16);
+			this.panel1.Controls.Add(this.label9);
+			this.panel1.Controls.Add(this.textBox9);
 			this.panel1.Controls.Add(this.button2);
-			this.panel1.Location = new System.Drawing.Point(0, 2);
+			this.panel1.Controls.Add(this.label10);
+			this.panel1.Controls.Add(this.textBox13);
+			this.panel1.Controls.Add(this.textBox10);
+			this.panel1.Controls.Add(this.label13);
+			this.panel1.Controls.Add(this.label11);
+			this.panel1.Controls.Add(this.textBox12);
+			this.panel1.Controls.Add(this.textBox11);
+			this.panel1.Controls.Add(this.label12);
+			this.panel1.Location = new System.Drawing.Point(0, 0);
 			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(772, 349);
+			this.panel1.Size = new System.Drawing.Size(800, 375);
 			this.panel1.TabIndex = 0;
 			this.panel1.Visible = false;
 			// 
@@ -207,6 +239,126 @@ namespace Tapetes
 			this.button1.UseVisualStyleBackColor = true;
 			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
+			// label9
+			// 
+			this.label9.Location = new System.Drawing.Point(24, 62);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(100, 23);
+			this.label9.TabIndex = 22;
+			this.label9.Text = "label9";
+			// 
+			// textBox9
+			// 
+			this.textBox9.Location = new System.Drawing.Point(24, 88);
+			this.textBox9.Name = "textBox9";
+			this.textBox9.Size = new System.Drawing.Size(100, 20);
+			this.textBox9.TabIndex = 17;
+			// 
+			// label10
+			// 
+			this.label10.Location = new System.Drawing.Point(24, 303);
+			this.label10.Name = "label10";
+			this.label10.Size = new System.Drawing.Size(100, 23);
+			this.label10.TabIndex = 26;
+			this.label10.Text = "label10";
+			// 
+			// textBox10
+			// 
+			this.textBox10.Location = new System.Drawing.Point(24, 137);
+			this.textBox10.Name = "textBox10";
+			this.textBox10.Size = new System.Drawing.Size(100, 20);
+			this.textBox10.TabIndex = 18;
+			// 
+			// label11
+			// 
+			this.label11.Location = new System.Drawing.Point(24, 245);
+			this.label11.Name = "label11";
+			this.label11.Size = new System.Drawing.Size(100, 23);
+			this.label11.TabIndex = 25;
+			this.label11.Text = "label11";
+			// 
+			// textBox11
+			// 
+			this.textBox11.Location = new System.Drawing.Point(24, 202);
+			this.textBox11.Name = "textBox11";
+			this.textBox11.Size = new System.Drawing.Size(100, 20);
+			this.textBox11.TabIndex = 19;
+			// 
+			// label12
+			// 
+			this.label12.Location = new System.Drawing.Point(24, 176);
+			this.label12.Name = "label12";
+			this.label12.Size = new System.Drawing.Size(100, 23);
+			this.label12.TabIndex = 24;
+			this.label12.Text = "label12";
+			// 
+			// textBox12
+			// 
+			this.textBox12.Location = new System.Drawing.Point(24, 271);
+			this.textBox12.Name = "textBox12";
+			this.textBox12.Size = new System.Drawing.Size(100, 20);
+			this.textBox12.TabIndex = 20;
+			// 
+			// label13
+			// 
+			this.label13.Location = new System.Drawing.Point(24, 111);
+			this.label13.Name = "label13";
+			this.label13.Size = new System.Drawing.Size(100, 23);
+			this.label13.TabIndex = 23;
+			this.label13.Text = "label13";
+			// 
+			// textBox13
+			// 
+			this.textBox13.Location = new System.Drawing.Point(24, 329);
+			this.textBox13.Name = "textBox13";
+			this.textBox13.Size = new System.Drawing.Size(100, 20);
+			this.textBox13.TabIndex = 21;
+			// 
+			// label14
+			// 
+			this.label14.Location = new System.Drawing.Point(637, 78);
+			this.label14.Name = "label14";
+			this.label14.Size = new System.Drawing.Size(100, 23);
+			this.label14.TabIndex = 32;
+			this.label14.Text = "label14";
+			// 
+			// label15
+			// 
+			this.label15.Location = new System.Drawing.Point(637, 19);
+			this.label15.Name = "label15";
+			this.label15.Size = new System.Drawing.Size(100, 23);
+			this.label15.TabIndex = 31;
+			this.label15.Text = "label15";
+			// 
+			// label16
+			// 
+			this.label16.Location = new System.Drawing.Point(319, 19);
+			this.label16.Name = "label16";
+			this.label16.Size = new System.Drawing.Size(100, 23);
+			this.label16.TabIndex = 30;
+			this.label16.Text = "label16";
+			// 
+			// textBox14
+			// 
+			this.textBox14.Location = new System.Drawing.Point(319, 45);
+			this.textBox14.Name = "textBox14";
+			this.textBox14.Size = new System.Drawing.Size(100, 20);
+			this.textBox14.TabIndex = 27;
+			// 
+			// textBox15
+			// 
+			this.textBox15.Location = new System.Drawing.Point(637, 104);
+			this.textBox15.Name = "textBox15";
+			this.textBox15.Size = new System.Drawing.Size(100, 20);
+			this.textBox15.TabIndex = 29;
+			// 
+			// textBox16
+			// 
+			this.textBox16.Location = new System.Drawing.Point(637, 45);
+			this.textBox16.Name = "textBox16";
+			this.textBox16.Size = new System.Drawing.Size(100, 20);
+			this.textBox16.TabIndex = 28;
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -233,9 +385,26 @@ namespace Tapetes
 			this.Name = "MainForm";
 			this.Text = "Tapetes";
 			this.panel1.ResumeLayout(false);
+			this.panel1.PerformLayout();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Label label12;
+		private System.Windows.Forms.TextBox textBox11;
+		private System.Windows.Forms.TextBox textBox12;
+		private System.Windows.Forms.Label label11;
+		private System.Windows.Forms.Label label13;
+		private System.Windows.Forms.TextBox textBox10;
+		private System.Windows.Forms.TextBox textBox13;
+		private System.Windows.Forms.Label label10;
+		private System.Windows.Forms.TextBox textBox9;
+		private System.Windows.Forms.Label label9;
+		private System.Windows.Forms.TextBox textBox16;
+		private System.Windows.Forms.TextBox textBox15;
+		private System.Windows.Forms.TextBox textBox14;
+		private System.Windows.Forms.Label label16;
+		private System.Windows.Forms.Label label15;
+		private System.Windows.Forms.Label label14;
 		private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.TextBox textBox1;
