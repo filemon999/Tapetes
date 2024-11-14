@@ -29,5 +29,15 @@ namespace Tapetes
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			panel1.Visible = true;
+		}
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			panel1.Visible = false;
+		}
 	}
 }
