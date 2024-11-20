@@ -29,7 +29,7 @@ namespace Tapetes
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
-		
+		//Panel / "Ventanas"
 		void Button1Click(object sender, EventArgs e)
 		{
 			panel1.Visible = true;
@@ -38,6 +38,11 @@ namespace Tapetes
 		void Button2Click(object sender, EventArgs e)
 		{
 			panel1.Visible = false;
+		}
+		
+		void Panel1Paint(object sender, PaintEventArgs e)
+		{
+			
 		}
 	}
 }
