@@ -12,3 +12,10 @@ D:\Repositorio\Tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.MainForm.resources
 D:\Repositorio\Tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.csproj.GenerateResource.Cache
 D:\Repositorio\Tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.exe
 D:\Repositorio\Tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.pdb
+D:\Repo prueba final\Tapetes\Tapetes\Tapetes\bin\Debug\Tapetes.exe
+D:\Repo prueba final\Tapetes\Tapetes\Tapetes\bin\Debug\Tapetes.pdb
+D:\Repo prueba final\Tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.csprojResolveAssemblyReference.cache
+D:\Repo prueba final\Tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.MainForm.resources
+D:\Repo prueba final\Tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.csproj.GenerateResource.Cache
+D:\Repo prueba final\Tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.exe
+D:\Repo prueba final\Tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.pdb

@@ -55,9 +55,9 @@ namespace Tapetes
 				larg = Convert.ToDouble(txt10.Text);
 			
 				//precio de un metro cuadrado basado en lo que investigue que se usa de material
-				to = (aser * 10) + (agua * 1.2) + (pint* 0.3) + (frut*0.9) + (flor*1.2);
+				to = (aser * 3) + (agua * 0.9) + (pint* 0.2) + (frut*0.8) + (flor*1) + (hrs * 0.33);
 				//multiplica el precio de un metro por el tamaño del tapate y suma a eso el gasto de mano de obra, tiempo, etc
-				tot = (anch*larg) * (to) + (person*130) + (mano*person) + (hrs * 2);
+				tot = (anch*larg) * (to) + (person*120) + (mano*person);
 				//Transforma el resultado a un string para mostrarlo en la textBox que lo enseñara
 				string total = tot.ToString();
 				textBox1.Text = total;
