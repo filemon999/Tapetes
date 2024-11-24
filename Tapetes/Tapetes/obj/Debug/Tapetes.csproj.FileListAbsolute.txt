@@ -5,3 +5,10 @@ C:\Users\CC2-PC15\Documents\patata\Tapetes\Tapetes\obj\Debug\Tapetes.MainForm.re
 C:\Users\CC2-PC15\Documents\patata\Tapetes\Tapetes\obj\Debug\Tapetes.csproj.GenerateResource.Cache
 C:\Users\CC2-PC15\Documents\patata\Tapetes\Tapetes\obj\Debug\Tapetes.exe
 C:\Users\CC2-PC15\Documents\patata\Tapetes\Tapetes\obj\Debug\Tapetes.pdb
+D:\Repositorio\Tapetes\Tapetes\Tapetes\bin\Debug\Tapetes.exe
+D:\Repositorio\Tapetes\Tapetes\Tapetes\bin\Debug\Tapetes.pdb
+D:\Repositorio\Tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.csprojResolveAssemblyReference.cache
+D:\Repositorio\Tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.MainForm.resources
+D:\Repositorio\Tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.csproj.GenerateResource.Cache
+D:\Repositorio\Tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.exe
+D:\Repositorio\Tapetes\Tapetes\Tapetes\obj\Debug\Tapetes.pdb

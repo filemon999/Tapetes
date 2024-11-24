@@ -29,20 +29,39 @@ namespace Tapetes
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
-		//Panel / "Ventanas"
-		void Button1Click(object sender, EventArgs e)
+		
+		void btn(object sender, EventArgs e)
 		{
-			panel1.Visible = true;
+			
 		}
 		
 		void Button2Click(object sender, EventArgs e)
 		{
-			panel1.Visible = false;
-		}
-		
-		void Panel1Paint(object sender, PaintEventArgs e)
-		{
+			//variables para almacenar los datos de las textboxes
+			double tot, to, aser, agua, pint, frut, flor, hrs, person, mano, anch, larg;
+			//El if se asegura de que se hallan llenado todos los campos
+			if (txt1.Text != "" && txt2.Text != "" && txt3.Text != "" && txt4.Text != "" && txt5.Text != "" && txt6.Text != "" && txt7.Text != "" && txt8.Text != "" && txt9.Text != "" && txt10.Text != "")
+			{
+				//Transformar los datos de las textbox para guardarlos como doubles
+				aser = Convert.ToDouble(txt1.Text);
+				agua = Convert.ToDouble(txt2.Text);
+				pint = Convert.ToDouble(txt3.Text);
+				frut = Convert.ToDouble(txt4.Text);
+				flor = Convert.ToDouble(txt5.Text);
+				hrs = Convert.ToDouble(txt6.Text);
+				person = Convert.ToDouble(txt7.Text);
+				mano = Convert.ToDouble(txt8.Text);
+				anch = Convert.ToDouble(txt9.Text);
+				larg = Convert.ToDouble(txt10.Text);
 			
+				//precio de un metro cuadrado basado en lo que investigue que se usa de material
+				to = (aser * 10) + (agua * 1.2) + (pint* 0.3) + (frut*0.9) + (flor*1.2);
+				//multiplica el precio de un metro por el tamaño del tapate y suma a eso el gasto de mano de obra, tiempo, etc
+				tot = (anch*larg) * (to) + (person*130) + (mano*person) + (hrs * 2);
+				//Transforma el resultado a un string para mostrarlo en la textBox que lo enseñara
+				string total = tot.ToString();
+				textBox1.Text = total;
+			}	
 		}
 	}
 }
